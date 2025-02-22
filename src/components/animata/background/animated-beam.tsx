@@ -74,7 +74,7 @@ function Background() {
                     background:
                         "radial-gradient(50% 50% at 50% 50%,#072a39 0%,rgb(7,42,57) 50%,rgba(7,42,57,0) 100%)",
                 }}
-                className="absolute inset-0 top-1/2 h-full w-full rounded-full opacity-40"
+                className="absolute inset-0 h-full w-full rounded-full opacity-40"
             />
             {Array.from({ length: count }, (_, i) => (
                 <div key={i} className="relative h-full w-px rotate-12">
