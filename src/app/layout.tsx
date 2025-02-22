@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import AnimatedBeam from "@/components/animata/background/animated-beam";
+import CustomFooter from "@/components/custom/custom-footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

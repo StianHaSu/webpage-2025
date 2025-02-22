@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 
 import { cn } from "@/lib/utils";
+import CustomFooter from "@/components/custom/custom-footer";
 
 function Beam({ index }: { index: number }) {
     const flag = index % 8 === 0;
@@ -94,8 +95,9 @@ export default function AnimatedBeam({
 }) {
     return (
         <div className={cn("storybook-fix relative w-full overflow-hidden", className)}>
-            <Background />
+            <Background/>
             <div className="relative h-full w-full">{children}</div>
+            <div className="relative h-full w-full"><CustomFooter/></div>
         </div>
     );
 }
