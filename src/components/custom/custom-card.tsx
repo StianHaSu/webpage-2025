@@ -6,7 +6,7 @@ export default function CustomCard() {
     return (
         <Card isFooterBlurred className="border-none" radius="lg">
             <Image
-                alt="Woman listing to music"
+                alt="Two glasses of beer smiling and high fiving."
                 className="object-cover"
                 height={200}
                 src="pilspal-frontpage.png"
@@ -22,7 +22,7 @@ export default function CustomCard() {
                     size="sm"
                     variant="flat"
                 >
-                    Check it out   <i className="fa fa-external-link" aria-hidden="true"></i>
+                    Check it out <i className="fa fa-external-link" aria-hidden="true"></i>
                 </Button>
             </CardFooter>
         </Card>
