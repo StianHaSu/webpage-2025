@@ -12,7 +12,7 @@ export default {
     extend: {
       colors: {
         background: "var(--background)",
-        foreground: "var(--foreground)",
+        foreground: "hsl(var(--foreground))",
       },
       keyframes: {
         meteor: {
