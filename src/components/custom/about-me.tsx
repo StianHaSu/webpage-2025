@@ -22,9 +22,11 @@ export default function AboutMe () {
                     <h3 className="text-xl font-sans font-thin text-center top-0 max-w-[250px] md:max-w-[450px] md:text-3xl lg:text-4xl ">
                         I am also co-founder and developer at
                     </h3>
-                    <img className="invert mt-8 max-w-[150px] md:max-w-[350px] md:mt-6" src="/stereotype-hvit-transparent.png"
-                         alt="Logo of Stereotype AS">
-                    </img>
+                    <a href="https://stereotype.no" target="_blank">
+                        <img className="invert mt-8 max-w-[150px] md:max-w-[350px] md:mt-6" src="/stereotype-hvit-transparent.png"
+                            alt="Logo of Stereotype AS">
+                        </img>
+                    </a>
                 </div>
             </div>
         </div>

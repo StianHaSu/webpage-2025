@@ -1,0 +1,38 @@
+[
+    {
+        "title": "2015-2020",
+        "cardTitle": "KIWI",
+        "cardSubtitle": "Grocery store worker",
+        "cardDetailedText": "I started working at the grocery store KIWI when I was 15, stocking shelves and helping customers. When I turned 18, I became shift manager."
+    },
+    {
+        "title": "2020-2021",
+        "cardTitle": "Army",
+        "cardSubtitle": "Dog handler",
+        "cardDetailedText": "I did my 18 month conscription period as a dog handler in the Military Police."
+    },
+    {
+        "title": "2021-2022",
+        "cardTitle": "Sector Alarm",
+        "cardSubtitle": "Alarm operator",
+        "cardDetailedText": "I worked as an alarm operator, calling out to customers from the alarm station, often interracting with emergency services."
+    },
+    {
+        "title": "2022-2024",
+        "cardTitle": "University of Oslo",
+        "cardSubtitle": "Social media producer",
+        "cardDetailedText": "Helped produce social media content for the social media platforms for the Institute of Informatics, UiO."
+    },
+    {
+        "title": "2022-2024",
+        "cardTitle": "University of Oslo",
+        "cardSubtitle": "Teaching assistant",
+        "cardDetailedText": "I first became a teching assistant the fall of 2022, teaching IN1000: Introduction to object oriented programming, then again the spring of 2023, where I tought IN1010: Object oriented programming. I was also a supervisor in the cource IN2000: Software Engineering with Project Work, the spring of 2024."
+    },
+    {
+        "title": "2023-now",
+        "cardTitle": "Kahoot!",
+        "cardSubtitle": "Backend developer",
+        "cardDetailedText": "I had my first internship in Kahoot! after my second year in Uni, in 2023. I am still working there part time (40%) now. I will begin working there full-time after finishing my masters the summer of 2026."
+    }
+]

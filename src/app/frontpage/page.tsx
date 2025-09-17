@@ -5,10 +5,12 @@ import Link from "next/link";
 import AboutMe from "@/components/custom/about-me";
 import Projects from "@/components/custom/projects";
 import Technology from "@/components/custom/technology";
+import GibberishText from "@/components/animata/text/gibberish-text";
+import Work from "@/components/custom/work";
 
 export default function Home() {
     return (
-        <div className="mb-44">
+        <div className="mb-24">
             <div
                 className="w-[90vw] h-[95vh] opacity-30 z-[-10] absolute rounded-sm border-[#f2f4f3] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             </div>
@@ -21,8 +23,8 @@ export default function Home() {
                             </h1>
                         </div>
                         <div className="flex flex-col items-center">
-                            <p className="text-xl font-semibold font-sans">
-                                Backend Developer
+                            <p>
+                                <GibberishText text="Backend Developer" className="text-xl font-light font-sans"></GibberishText>
                             </p>
                         </div>
                     </div>
@@ -40,6 +42,9 @@ export default function Home() {
             </div>
             <div>
                 <AboutMe/>
+            </div>
+            <div className="mb-[20vh]">
+                <Work/>
             </div>
             <div className="flex justify-center">
                 <Projects/>
