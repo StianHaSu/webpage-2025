@@ -1,6 +1,7 @@
 'use client';
 
 import { title } from 'process';
+// @ts-ignore
 import { Chrono } from 'react-chrono';
 import work from "@/app/content/english/work.json"
 
