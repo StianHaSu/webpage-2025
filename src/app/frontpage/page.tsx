@@ -1,5 +1,5 @@
-import AnimatedBeam from "@/components/animata/background/animated-beam";
-import {redirect} from "next/navigation";
+'use client';
+
 import React from "react";
 import Link from "next/link";
 import AboutMe from "@/components/custom/about-me";
@@ -7,12 +7,35 @@ import Projects from "@/components/custom/projects";
 import Technology from "@/components/custom/technology";
 import GibberishText from "@/components/animata/text/gibberish-text";
 import Work from "@/components/custom/work";
+import { LanguageState, useLanguageStore } from "@/state/state-store";
+import { Button } from "@heroui/react";
+
+import intro_text_en from '@/app/content/english/intro.json'
+import intro_text_no from '@/app/content/norwegian/intro.json'
+
+interface IntroText {
+    position: string
+}
 
 export default function Home() {
+    const language = useLanguageStore((state: LanguageState) => state.language)
+    const setLanguage = useLanguageStore((state: LanguageState) => state.setLanguage)
+    
+    const borderString = "border border-white "
+    const introContent: IntroText = language == "en" ? intro_text_en : intro_text_no 
+
+    const changeLanguage = (newLanguage: string) => {
+        setLanguage(newLanguage);
+    }
+
     return (
         <div className="mb-24">
+            <div className="absolute top-4 right-8 space-x-2 min-h-12">
+                <Button onPress={() => changeLanguage("en")} className={"text-4xl px-3 py-1 " + (language == "en" ? borderString : "text-4xl")}>🇬🇧</Button>
+                <Button onPress={() => changeLanguage("no")} className={"text-4xl px-3 py-1 " + (language == "no" ? borderString : "text-4xl")}>🇧🇻</Button>
+            </div>
             <div
-                className="w-[90vw] h-[95vh] opacity-30 z-[-10] absolute rounded-sm border-[#f2f4f3] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                className="w-[90vw] min-h-[95vh] opacity-30 z-[-10] absolute rounded-sm border-[#f2f4f3] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             </div>
             <div className="w-screen h-screen flex justify-center items-center flex-col">
                 <div className="grid grid-cols-1 items-center h-full">
@@ -24,7 +47,7 @@ export default function Home() {
                         </div>
                         <div className="flex flex-col items-center">
                             <p>
-                                <GibberishText text="Backend Developer" className="text-xl font-light font-sans"></GibberishText>
+                                <GibberishText text={introContent.position} className="text-xl font-light font-sans"></GibberishText>
                             </p>
                         </div>
                     </div>

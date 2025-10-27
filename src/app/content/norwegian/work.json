@@ -1,0 +1,41 @@
+{
+    "header": "Arbeidserfaring",
+    "entries": [
+        {
+            "title": "2015-2020",
+            "cardTitle": "KIWI",
+            "cardSubtitle": "Butikkmedarbeider",
+            "cardDetailedText": "Jeg begynte å jobbe i dagligvarebutikken KIWI da jeg var 15 år, hvor jeg fylte opp hyller og hjalp kunder. Da jeg fylte 18, ble jeg låseansvarlig."
+        },
+        {
+            "title": "2020-2021",
+            "cardTitle": "Forsvaret",
+            "cardSubtitle": "Hundefører",
+            "cardDetailedText": "Jeg gjennomførte min 18 måneders førstegangstjeneste som hundefører i Militærpolitiet."
+        },
+        {
+            "title": "2021-2022",
+            "cardTitle": "Sector Alarm",
+            "cardSubtitle": "Alarmoperatør",
+            "cardDetailedText": "Jeg jobbet som alarmoperatør, hvor jeg ringte ut til kunder fra alarmsentralen, og hadde ofte kontakt med nødetatene."
+        },
+        {
+            "title": "2022-2024",
+            "cardTitle": "Universitetet i Oslo",
+            "cardSubtitle": "Produsent for sosiale medier",
+            "cardDetailedText": "Bidro til å produsere innhold for sosiale medier for Institutt for informatikk ved UiO."
+        },
+        {
+            "title": "2022-2024",
+            "cardTitle": "Universitetet i Oslo",
+            "cardSubtitle": "Gruppelærer",
+            "cardDetailedText": "Jeg ble gruppelærer høsten 2022, hvor jeg underviste i IN1000: Introduksjon til objektorientert programmering, og igjen våren 2023, hvor jeg underviste i IN1010: Objektorientert programmering. Jeg var også veileder i emnet IN2000: Software Engineering med prosjektarbeid våren 2024."
+        },
+        {
+            "title": "2023-nå",
+            "cardTitle": "Kahoot!",
+            "cardSubtitle": "Backend-utvikler",
+            "cardDetailedText": "Jeg hadde min første sommerjobb i Kahoot! etter andreåret på studiene, i 2023. Jeg jobber fortsatt der deltid (40 %) nå, og skal begynne å jobbe der fulltid etter at jeg fullfører mastergraden sommeren 2026."
+        }
+    ]
+}
